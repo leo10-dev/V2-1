@@ -31,7 +31,7 @@
         "discord-oauth2": "^2.10.0",
         "discord-player": "^5.1.0",
         "discord-rpc": "^4.0.1",
-        "discord.js": "^13.8.1",
+        "discord.js": "^14.7.1",
         "dismod": "^1.0.5",
         "ejs": "^3.1.8",
         "enmap": "^5.9.0",
