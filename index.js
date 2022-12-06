@@ -762,10 +762,10 @@ client.on('messageCreate', async message => {
 
     collector.on('collect', async (interaction) => {
         if (interaction.values  == 'x') {
-            let role = interaction.guild.roles.cache.find(r => r.id === '1001480226775248996')
-            let role1 = interaction.guild.roles.cache.find(r => r.id === '1049439617088225370')
-            let role3 = interaction.guild.roles.cache.find(r => r.id === '1049447023226662912')
-            let role4 = interaction.guild.roles.cache.find(r => r.id === '1049447126221991987')// ايدي الرتبة 
+            let role = interaction.guild.roles.cache.find(r => r.id === '')
+            let role1 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role3 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role4 = interaction.guild.roles.cache.find(r => r.id === '')// ايدي الرتبة 
             if (!role) return;
             user.roles.add(role)
             user.roles.add(role1)
@@ -779,10 +779,10 @@ client.on('messageCreate', async message => {
         }
 
         if (interaction.values  == 'a') {
-            let role = interaction.guild.roles.cache.find(r => r.id === '1001480226775248996')
-            let role1 = interaction.guild.roles.cache.find(r => r.id === '1049439617088225370')
-            let role3 = interaction.guild.roles.cache.find(r => r.id === '1049447023226662912')
-            let role4 = interaction.guild.roles.cache.find(r => r.id === '1049447126221991987')// ايدي الرتبة 
+            let role = interaction.guild.roles.cache.find(r => r.id === '')
+            let role1 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role3 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role4 = interaction.guild.roles.cache.find(r => r.id === '')// ايدي الرتبة 
             if (!role) return;
             user.roles.add(role)
             user.roles.add(role1)
@@ -796,10 +796,10 @@ client.on('messageCreate', async message => {
         }
 
         if (interaction.values  == 'b') {
-            let role = interaction.guild.roles.cache.find(r => r.id === '1001480226775248996')
-            let role1 = interaction.guild.roles.cache.find(r => r.id === '1049439617088225370')
-            let role3 = interaction.guild.roles.cache.find(r => r.id === '1049447023226662912')
-            let role4 = interaction.guild.roles.cache.find(r => r.id === '1049447126221991987')// ايدي الرتبة 
+            let role = interaction.guild.roles.cache.find(r => r.id === '')
+            let role1 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role3 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role4 = interaction.guild.roles.cache.find(r => r.id === '')// ايدي الرتبة 
             if (!role) return;
             user.roles.add(role)
             user.roles.add(role1)
@@ -812,10 +812,10 @@ client.on('messageCreate', async message => {
             })
         }
         if (interaction.values  == 'c') {
-            let role = interaction.guild.roles.cache.find(r => r.id === '1001480226775248996')
-            let role1 = interaction.guild.roles.cache.find(r => r.id === '1049439617088225370')
-            let role3 = interaction.guild.roles.cache.find(r => r.id === '1049447023226662912')
-            let role4 = interaction.guild.roles.cache.find(r => r.id === '1049447126221991987')// ايدي الرتبة 
+            let role = interaction.guild.roles.cache.find(r => r.id === '')
+            let role1 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role3 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role4 = interaction.guild.roles.cache.find(r => r.id === '')// ايدي الرتبة 
             if (!role) return;
             user.roles.add(role)
             user.roles.add(role1)
@@ -828,10 +828,10 @@ client.on('messageCreate', async message => {
             })
         }
         if (interaction.values  == 'd') {
-            let role = interaction.guild.roles.cache.find(r => r.id === '1001480226775248996')
-            let role1 = interaction.guild.roles.cache.find(r => r.id === '1049439617088225370')
-            let role3 = interaction.guild.roles.cache.find(r => r.id === '1049447023226662912')
-            let role4 = interaction.guild.roles.cache.find(r => r.id === '1049447126221991987')// ايدي الرتبة 
+            let role = interaction.guild.roles.cache.find(r => r.id === '')
+            let role1 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role3 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role4 = interaction.guild.roles.cache.find(r => r.id === '')// ايدي الرتبة 
             if (!role) return;
             user.roles.add(role)
             user.roles.add(role1)
@@ -844,10 +844,10 @@ client.on('messageCreate', async message => {
             })
         }
         if (interaction.values  == 'e') {
-            let role = interaction.guild.roles.cache.find(r => r.id === '1001480226775248996')
-            let role1 = interaction.guild.roles.cache.find(r => r.id === '1049439617088225370')
-            let role3 = interaction.guild.roles.cache.find(r => r.id === '1049447023226662912')
-            let role4 = interaction.guild.roles.cache.find(r => r.id === '1049447126221991987')// ايدي الرتبة 
+            let role = interaction.guild.roles.cache.find(r => r.id === '')
+            let role1 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role3 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role4 = interaction.guild.roles.cache.find(r => r.id === '')// ايدي الرتبة 
             if (!role) return;
             user.roles.add(role)
             user.roles.add(role1)
@@ -995,8 +995,8 @@ client.on('messageCreate', async message => {
         if (interaction.values  == '3') {
             let role = interaction.guild.roles.cache.find(r => r.id === '')
             let role1 = interaction.guild.roles.cache.find(r => r.id === '')
-            let role3 = interaction.guild.roles.cache.find(r => r.id === '1049447023226662912')
-            let role4 = interaction.guild.roles.cache.find(r => r.id === '1049447126221991987')// ايدي الرتبة 
+            let role3 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role4 = interaction.guild.roles.cache.find(r => r.id === '')// ايدي الرتبة 
             if (!role) return;
             user.roles.remove(role)
             user.roles.remove(role1)
@@ -1009,10 +1009,10 @@ client.on('messageCreate', async message => {
             })
         }
         if (interaction.values  == '4') {
-            let role = interaction.guild.roles.cache.find(r => r.id === '1001480226775248996')
-            let role1 = interaction.guild.roles.cache.find(r => r.id === '1049439617088225370')
-            let role3 = interaction.guild.roles.cache.find(r => r.id === '1049447023226662912')
-            let role4 = interaction.guild.roles.cache.find(r => r.id === '1049447126221991987')// ايدي الرتبة 
+            let role = interaction.guild.roles.cache.find(r => r.id === '')
+            let role1 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role3 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role4 = interaction.guild.roles.cache.find(r => r.id === '')// ايدي الرتبة 
             if (!role) return;
             user.roles.remove(role)
             user.roles.remove(role1)
@@ -1025,10 +1025,10 @@ client.on('messageCreate', async message => {
             })
         }
         if (interaction.values  == '5') {
-            let role = interaction.guild.roles.cache.find(r => r.id === '1001480226775248996')
-            let role1 = interaction.guild.roles.cache.find(r => r.id === '1049439617088225370')
-            let role3 = interaction.guild.roles.cache.find(r => r.id === '1049447023226662912')
-            let role4 = interaction.guild.roles.cache.find(r => r.id === '1049447126221991987')// ايدي الرتبة 
+            let role = interaction.guild.roles.cache.find(r => r.id === '')
+            let role1 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role3 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role4 = interaction.guild.roles.cache.find(r => r.id === '')// ايدي الرتبة 
             if (!role) return;
             user.roles.remove(role)
             user.roles.remove(role1)
@@ -1041,10 +1041,10 @@ client.on('messageCreate', async message => {
             })
         }
         if (interaction.values  == '6') {
-            let role = interaction.guild.roles.cache.find(r => r.id === '1001480226775248996')
-            let role1 = interaction.guild.roles.cache.find(r => r.id === '1049439617088225370')
-            let role3 = interaction.guild.roles.cache.find(r => r.id === '1049447023226662912')
-            let role4 = interaction.guild.roles.cache.find(r => r.id === '1049447126221991987')// ايدي الرتبة 
+            let role = interaction.guild.roles.cache.find(r => r.id === '')
+            let role1 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role3 = interaction.guild.roles.cache.find(r => r.id === '')
+            let role4 = interaction.guild.roles.cache.find(r => r.id === '')// ايدي الرتبة 
             if (!role) return;
             user.roles.remove(role)
             user.roles.remove(role1)
@@ -1060,4 +1060,3 @@ client.on('messageCreate', async message => {
     }
 })
  
-                                      
