@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/settings.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <title>Dashboard</title>
+    <link rel="icon" type="image/png" href="<%= bot.user.displayAvatarURL({size: 128}) %>">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="sidebar">
+        <div class="profile">
+            <img src="https://cdn.discordapp.com/avatars/<%=user.id%>/<%=user.avatar%>.png">
+        </div>
+        <li>
+            <a href="#" class="active">
+                <span class="icon"><i class="fas fa-home"></i></span>
+                <span class="item">Home</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="icon"><i class="fas fa-desktop"></i></span>
+                <span class="item">Mod</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="icon"><i class="fas fa-user-friends"></i></span>
+                <span class="item">Logs</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="icon"><i class="fas fa-cog"></i></span>
+                <span class="item">Settings</span>
+            </a>
+        </li>
+    </div>
+  </div>
+</body>
+</html>

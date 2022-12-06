@@ -1,0 +1,12 @@
+{
+    "website" :{
+        "domin" : "http://localhost:5000"
+
+    },
+    "config" : {
+        "port" : "5000",
+        "callback" : "http://localhost:5000/callback",
+        "secret" : "YxAgFoz8SFncMi26cMNGx7rhpH2oZDNB",
+        "clientID" : "994771571669471233"
+    }
+}

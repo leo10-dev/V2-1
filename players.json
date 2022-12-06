@@ -1,0 +1,23 @@
+[
+    {
+        "question": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/240px-Flag_of_Poland.svg.png",
+        "answers": ["Poland", "بولندا"]
+    },
+    {
+        "question": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/240px-Flag_of_Romania.svg.png",
+        "answers": ["Romania", "رومانيا"]
+    },
+    {
+        "question": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Afghanistan.png",
+        "answers": ["Afghanistan", "أفغانستان"]
+
+    },
+    {
+        "question": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Algeria.png",
+        "answers": ["Algeria", "الجزائر"]
+    },
+    {
+        "question": "https://www.countries-ofthe-world.com/flags-normal/flag-of-Andorra.png",
+        "answers": ["Andorra", "اندورا"]
+    }
+]

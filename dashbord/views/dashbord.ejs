@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="hmm.css" />
+	<link rel="stylesheet" href="reset.css" />
+    <title><%= bot.user.username %></title>
+    <link rel="icon" type="image/png" href="<%= bot.user.displayAvatarURL({size: 128}) %>">
+    
+</head>
+<body>
+<nav>
+   
+
+<ul class="guilds-container">
+    <a href="/Profile" class="squircle purple-boi">
+        <img src="https://cdn.discordapp.com/avatars/<%=user.id%>/<%=user.avatar%>.png" alt="AV" class="server-icon">
+		<div class="popper-boi">
+			<h4 class="popper-text">Profile</h4>
+		</div>
+    </a>
+    <li class="divider"></li>
+    <% for (let guild of guilds) { %>
+	<a href="/Dashboard/<%= guild.id %>" class="squircle purple-boi">
+		<img src="<%= guild.icon ? `https://cdn.discordapp.com/icons/${guild.id}/${guild.icon}` : 'https://i.imgur.com/RO3uUxX.png' %>" alt="s" class="server-icon">
+		<div class="popper-boi">
+			<h4 class="popper-text"><%= guild.name %></h4>
+		</div>  
+        
+        <% } %>
+
+	</a>
+    <%  let guild = guilds %>
+    <a   href="<%= `https://discordapp.com/oauth2/authorize?client_id=${bot.user.id}&scope=bot%20applications.commands&guild_id=${guild.id}&response_type=code&redirect_uri=${encodeURIComponent(`${callback}`)}`  %>" class="squircle green-boi">
+		<svg class="circleIcon-LvPL6c" aria-hidden="false" width="24" height="24" viewBox="0 0 24 24">
+				<path fill="currentColor" d="M20 11.1111H12.8889V4H11.1111V11.1111H4V12.8889H11.1111V20H12.8889V12.8889H20V11.1111Z"></path>
+			</svg>
+		<div class="popper-boi">
+			<h4 class="popper-text">Invite Bot</h4>
+		</div>
+      
+	</a>
+
+	
+</ul>
+</nav>	
+
+</body>
+</html>

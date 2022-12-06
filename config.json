@@ -1,0 +1,15 @@
+{
+    "token": "",
+    "prefix": "-",
+    "mongooseConnectionString": "",
+    "color" : "LUMINOUS_VIVID_PINK",
+    "botOwner" : "923249789217431583",
+    "jwt_secret" : "sthj9Nav0hm9LAS7hnsAh9cndmFHKWfLSH6TzTyb8ed42ZQEjafpcgqmNXLHfmZ",
+    "Giveaway_Options": {
+       "giveawayRoleID" : "994314853999194272",
+        "giveawayMention": true,
+        "showMention": true,
+        "hostedBy": true
+        }
+
+}
