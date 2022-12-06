@@ -41,7 +41,7 @@
         "ffmpeg-static": "^5.0.2",
         "football-matches": "^1.2.3",
         "fs": "^0.0.1-security",
-        "glob": "^7.1.7",
+        "glob": "^8.0.3",
         "google-tts-api": "^2.0.2",
         "i": "^0.3.7",
         "jsonwebtoken": "^8.5.1",
