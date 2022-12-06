@@ -13,7 +13,7 @@
     "dependencies": {
         "@asmagin/google-translate-api": "^8.0.2",
         "@discordjs/opus": "^0.8.0",
-        "@discordjs/voice": "^0.10.0",
+        "@discordjs/voice": "^0.14.0",
         "@napi-rs/canvas": "^0.1.30",
         "ascii-table": "^0.0.9",
         "avconv": "^3.1.0",
